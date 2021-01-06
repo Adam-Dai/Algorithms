@@ -1,2 +1,2 @@
 # Algorithms
-Solution of CodeWars Traning.
+Solutions of CodeWars Trainings.
