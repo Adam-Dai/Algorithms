@@ -1,0 +1,19 @@
+# pyhon3 
+itertools 
+
+iteratools.product(*iterable, repeat=1)
+Caetrsian product of input iterables
+[a, b] x [c, d] = [a, c], [a, d], [b, c], [b, d]
+
+itertools.permutations(iterable, r = None)
+Return successive r length permutations(排列组合) of elements in the iterable.
+iterable = [a, b] -> res: [a, b], [b, a]
+iterable = [a, b, c], r = 2 -> res:[a, b], [a, c], [b, a], [b, c], [c, a], [c, b]
+
+itertools.combination(iterable, r)
+Return r length subsequences of elements from the input iterable.
+iterable = [a, b, c, d], r = 2 -> res: [a, b], [a, c], [a, d], [b, c], [b, d], [c, d]
+
+iteratools.combinations_with_replacement(iterable, r)
+Return r length subsequences of elements from the input iterable allowing individual elements to be repeated more than once.
+iterable = [a, b, c, d], r = 2 -> res: [a, a], [a, b], [a, c], [a, d], [b, b], [b, c], [b, d], [c, c], [c, d], [d, d]   
